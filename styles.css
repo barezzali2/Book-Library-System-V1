@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.container h3 {
+    color: rgb(22, 173, 22);
+    font-size: 25px;
+}
+
+/* Heading Styles */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+    text-align: center;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2e4ecd;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2e4ecd; /* Bootstrap success color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16.5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1a35a1; /* Darker green on hover */
+}
+
+/* Navigation Styles */
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2e4ecd;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 5px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+.buttons {
+    margin-left: 31%;
+}
+
+.buttons .add-btn {
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.buttons .delete-btn {
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #1a35a1;
+}
+
+.container .delete-rec {
+    margin-top: 25px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 45px;
+}
+
+footer p {
+    color: #777;
+}
